@@ -21,3 +21,19 @@ export g2_ver=3.4.5
 export w3nco_ver=2.4.1
 export bacio_ver=2.4.1
 export util_shared_ver=1.4.0
+
+
+#for canned data
+# Canned data 
+export SENDCANNEDDBN=YES
+export DCOMROOT=/lfs/h1/ops/canned/dcom
+#export DCOMROOT='/lfs/h2/emc/couple/noscrub/Andre.VanderWesthuysen/GLWU/dcom'
+
+#export COMPATH=/lfs/h1/ops/canned/com/omb
+#export COMROOT=/lfs/h1/ops/canned/com
+export DATAFS=h1
+#export PDY=20211003
+export PDY=20210816
+export KEEPDATA=YES
+
+

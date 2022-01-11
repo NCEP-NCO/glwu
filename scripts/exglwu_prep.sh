@@ -873,7 +873,7 @@
         mail.py -s "Missing GLWU/GLW ice info for $PDY t${cyc}z" Xiaoxue.Wang@noaa.gov email.ice
     fi
       sort -b what_${runID}_used.$cycle > $COMOUT/what_${runID}_used.$cycle
-      $DBNROOT/bin/dbn_alert MODEL OMBWAVE $job $COMOUT/what_${runID}_used.$cycle
+      $SIPHONROOT/bin/dbn_alert MODEL OMBWAVE $job $COMOUT/what_${runID}_used.$cycle
   fi
 
 
